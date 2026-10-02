@@ -40,13 +40,13 @@ where:
 * `b` = intercept
 * `ŷ` = predicted value
 
-In this project, the model predicts a student's performance based on the number of hours studied.
+A from-scratch implementation of Linear Regression using NumPy, covering gradient descent, manual evaluation metrics, data preprocessing, visualization, residual diagnostics, Ridge Regression, and comparison with Scikit-Learn..
 
 ---
 
 ## Dataset
 
-The dataset contains:
+The primary dataset contains 200 generated samples with hours_studied as the input feature and a continuous performance score as the target variable.:
 
 * `hours_studied` — input feature
 * `performance` — target variable
